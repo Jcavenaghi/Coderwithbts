@@ -4,7 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!--iconos-->
+   
+    <link rel="stylesheet" href="../styles.css">
+    <!--iconos-->
    <script src="https://kit.fontawesome.com/d2b0874d59.js" crossorigin="anonymous"></script>
     
     <!-- Bootstrap CSS -->
@@ -12,7 +14,7 @@
 
     <title>Lugares</title>
   </head>
-  <body>
+  <body class="container-body">
     <header>
       <div class="my-5">
         <p class="h1 text-center">LUGARES</p>
@@ -45,7 +47,86 @@
         </div>
       </nav>
     </header>
-    <h1>Hello, world!</h1>
+    <main class="container-fluid my-2">
+      <section class="container-fluid row">
+        <p class="h2 text-center my-4 fs-5">Chascomús, además de ser una ciudad con una rica historia, tiene muchos lugares que vale la pena visitar. 
+          Encontramos lugares llenos de historia, como el fuerte San Juan Bautista, la casa de Casco, la capilla de los negros, el castillo de la amistad; 
+          Y también se pueden visitar otros sitios como el Museo Pampeano y la estación de ferrocarril, entre otros lugares fantásticos.</p>
+      </section>
+      <section class="container-fluid row g-3">
+        <article class="lugares__img col-xl-3 col-lg-4 col-md-6">
+          <img src="../img/fuerte.jpg" alt="fuerte san juan bautista">
+          <div class="descripcion__foto">
+              <h3>Fuerte san Juan Bautista</h3>
+              <p>Fue un puesto fortificado que integró la línea de defensa del territorio de Buenos Aires en su frontera con el indio.</p>
+          </div>
+      </article>
+
+      <article class="lugares__img col-xl-3 col-lg-4 col-md-6">
+          <img src="../img/casa_casco.jpg" alt="Casa de casco">
+          <div class="descripcion__foto">
+              <h3>Casa de Casco</h3>
+              <p>Casa del hacendado Vicente Casco, construida a partir de 1831 para resguardar a la familia de los posibles malones indígenas, 
+                  quienes tiempo atras habían secuestrado a uno de sus hijos.  De estilo post virreynal, fue la primer casa de alto de la ciudad.</p>
+          </div>
+      </article>
+
+      <article class="lugares__img col-xl-3 col-lg-4 col-md-6">
+          <img src="../img/capilla-de-los-negros.jpg" alt="Capilla de los negros">
+          <div class="descripcion__foto">
+              <h3>Capilla De Los Negros</h3>
+              <p>La Capilla de los Negros fue un lugar de encuentro, es un símbolo vivo del legado, la historia y 
+                  la cultura de la comunidad afrodescendientes de Chascomús.</p>
+          </div>
+      </article>
+
+      <article class="lugares__img col-xl-3 col-lg-4 col-md-6">
+          <img src="../img/castillo.jpg" alt="Castillo de la Amistad">
+          <div class="descripcion__foto">
+              <h3>Castillo de la Amistad</h3>
+              <p>Una cofradía de amigos fundó el Reino de la Amistad en 1947. Tuvo un monarca, una corte y una Carta Magna, gracias a la 
+                  creatividad de unos hombres que siempre compartían copas en el viejo Bar National.</p>
+          </div>
+      </article>
+  
+      <article class="lugares__img col-xl-3 col-lg-4 col-md-6">
+          <img src="../img/museo_p.jpg" alt="Museo Pampeano">
+          <div class="descripcion__foto">
+              <h3>Museo Pampeano</h3>
+              <p>Fue creado en el año 1939, para recordar el centenario de la Batalla de Chascomús.
+                  En sus 7 salas de exposición permanente se refleja la historia local desde el poblamiento prehispánico y su evolución en el ámbito urbano y rural.</p>
+          </div>
+      </article>
+
+      <article class="lugares__img col-xl-3 col-lg-4 col-md-6">
+          <img src="../img/estacion_ferrocarril.jpg" alt="Estacion de ferrocarril">
+          <div class="descripcion__foto">
+              <h3>Estacion de Ferrocarril</h3>
+              <p>Chascomús fue punta de rieles en 1865, llega a la ciudad el ferrocarril del Sud siendo uno de los acontecimientos más importantes en el desarrollo económico local.
+                  El edificio con galería al estilo inglés, fue construido con materiales de la laguna. Tenía un patio de acceso y andén principal. 
+                  Es uno de los edificios en uso más pintorescos de la ciudad.</p>
+          </div>
+      </article>
+
+      <article class="lugares__img col-xl-3 col-lg-4 col-md-6">
+          <img src="../img/reloj.jpg" alt="Reloj de los italianos">
+          <div class="descripcion__foto">
+              <h3>Reloj de los italianos</h3>
+              <p>El emblemático monumento, situado en la intersección de las calles Lastra, Libres del Sur y Mitre, 
+                  fue obsequiado por inmigrantes y descendientes de italianos, al conmemorarse el centenario de la Batalla de Chascomús.</p>
+          </div>
+      </article>
+
+      <article class="lugares__img col-xl-3 col-lg-4 col-md-6">
+          <img src="../img/parque.jpg" alt="Parque libres del sur">
+          <div class="descripcion__foto">
+              <h3>Parque Libres del Sur</h3>
+              <p>Fue creado en el año 1939 en conmemoración de la Batalla de Chascomús en conjunto con la construcción del Museo Pampeano. 
+                  El parque linda con la laguna, característica que le adiciona mayor riqueza paisajística. Se ubican agrupaciones de árboles y arbustos de diferentes especies.</p>
+          </div>
+      </article>
+      </section>
+    </main>
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
